@@ -1,0 +1,33 @@
+<h1 *ngIf="quiz; else loading">{{ quiz.title }}</h1>
+
+<div *ngIf="quiz && !isQuizComplete(); else results">
+  <div *ngFor="let question of quiz.questions; let i = index">
+    <p>Question {{ i + 1 }}/{{ quiz.questions.length }}</p>
+   <app-question
+  [question]="question"
+  (answerSelected)="handleAnswer($event, i)"
+></app-question>
+
+
+    <hr />
+  </div>
+</div>
+
+<ng-template #loading>
+  <h2>Loading Quiz...</h2>
+</ng-template>
+
+<ng-template #results>
+  <h2>Quiz Complete!</h2>
+ <p>Your score: {{ getScore() }}/{{ quiz?.questions?.length || 0 }}</p>
+
+  <p>Your score percentage: {{ getScorePercentage() }}%</p>
+
+  <div [ngSwitch]="getScorePercentage()">
+    <div *ngSwitchCase="100">Excellent! All correct answers!</div>
+    <div *ngSwitchCase="0">All wrong answers! Stop trolling!</div>
+    <div *ngSwitchDefault>Better luck next time!</div>
+  </div>
+
+  <button (click)="goToMainMenu()">Back to Main Menu</button>
+</ng-template>

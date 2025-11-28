@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Quiz History</h1>
+
+  <div *ngIf="history.length > 0; else noHistory">
+    <ul>
+      <li *ngFor="let entry of history" class="history-item">
+        <p><strong>{{ entry.quizTitle }}</strong></p>
+        <p>Score: {{ entry.score }}/{{ entry.maxScore }}</p>
+        <p>Date: {{ entry.date | customDate : 'short' }}</p>
+      </li>
+    </ul>
+  </div>
+
+  <ng-template #noHistory>
+    <p>No history available.</p>
+  </ng-template>
+</div>

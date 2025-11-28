@@ -1,0 +1,17 @@
+<h2>{{ question.text }}</h2>
+
+<form class="quiz-form">
+  <div class="option-container" *ngFor="let option of question.options; let i = index">
+    <input
+      type="radio"
+      [id]="'option-' + i"
+      name="options"
+      (change)="selectOption(option.isCorrect)"
+      class="option-input"
+      title="Select this option"
+    />
+    <label [for]="'option-' + i" class="option-label">
+      {{ option.text }}
+    </label>
+  </div>
+</form>

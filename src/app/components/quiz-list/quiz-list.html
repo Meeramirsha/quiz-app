@@ -1,0 +1,7 @@
+<h1>Available Quizzes</h1>
+<div class="quiz-grid">
+    <div *ngFor="let quiz of quizzes; let i = index" class="quiz-card">
+        <h3>{{quiz.title}}</h3>
+        <button (click)="takeQuiz(i)">Take Quiz</button>
+    </div>
+</div>

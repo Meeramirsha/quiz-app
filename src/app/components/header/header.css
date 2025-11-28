@@ -1,0 +1,29 @@
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+}
+h1{
+    font-size: 32px;
+}
+p{
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: underline;
+}

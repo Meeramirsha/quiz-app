@@ -1,0 +1,459 @@
+[
+
+  {
+
+    "title": "General Knowledge Quiz",
+
+    "questions": [
+
+      {
+
+        "text": "What is the capital of Italy?",
+
+        "options": [
+
+          { "text": "Rome", "isCorrect": true },
+
+          { "text": "Venice", "isCorrect": false },
+
+          { "text": "Milan", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Who painted the Mona Lisa?",
+
+        "options": [
+
+          { "text": "Leonardo da Vinci", "isCorrect": true },
+
+          { "text": "Vincent van Gogh", "isCorrect": false },
+
+          { "text": "Pablo Picasso", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Which planet is closest to the sun?",
+
+        "options": [
+
+          { "text": "Mercury", "isCorrect": true },
+
+          { "text": "Venus", "isCorrect": false },
+
+          { "text": "Earth", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What is the tallest mountain in the world?",
+
+        "options": [
+
+          { "text": "Mount Everest", "isCorrect": true },
+
+          { "text": "K2", "isCorrect": false },
+
+          { "text": "Kangchenjunga", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Which country is known as the Land of the Rising Sun?",
+
+        "options": [
+
+          { "text": "Japan", "isCorrect": true },
+
+          { "text": "China", "isCorrect": false },
+
+          { "text": "South Korea", "isCorrect": false }
+
+        ]
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "title": "Science Quiz",
+
+    "questions": [
+
+      {
+
+        "text": "What is the chemical symbol for Gold?",
+
+        "options": [
+
+          { "text": "Au", "isCorrect": true },
+
+          { "text": "Ag", "isCorrect": false },
+
+          { "text": "Go", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What is the powerhouse of the cell?",
+
+        "options": [
+
+          { "text": "Mitochondria", "isCorrect": true },
+
+          { "text": "Nucleus", "isCorrect": false },
+
+          { "text": "Ribosome", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What gas do plants absorb during photosynthesis?",
+
+        "options": [
+
+          { "text": "Carbon dioxide", "isCorrect": true },
+
+          { "text": "Oxygen", "isCorrect": false },
+
+          { "text": "Nitrogen", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What is the boiling point of water at sea level?",
+
+        "options": [
+
+          { "text": "100°C", "isCorrect": true },
+
+          { "text": "90°C", "isCorrect": false },
+
+          { "text": "110°C", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What is the speed of light in vacuum?",
+
+        "options": [
+
+          { "text": "300,000 km/s", "isCorrect": true },
+
+          { "text": "150,000 km/s", "isCorrect": false },
+
+          { "text": "450,000 km/s", "isCorrect": false }
+
+        ]
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "title": "History Quiz",
+
+    "questions": [
+
+      {
+
+        "text": "Who was the first President of the United States?",
+
+        "options": [
+
+          { "text": "George Washington", "isCorrect": true },
+
+          { "text": "Abraham Lincoln", "isCorrect": false },
+
+          { "text": "Thomas Jefferson", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "When did World War II end?",
+
+        "options": [
+
+          { "text": "1945", "isCorrect": true },
+
+          { "text": "1939", "isCorrect": false },
+
+          { "text": "1950", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Who discovered America?",
+
+        "options": [
+
+          { "text": "Christopher Columbus", "isCorrect": true },
+
+          { "text": "Ferdinand Magellan", "isCorrect": false },
+
+          { "text": "James Cook", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Which empire was ruled by Julius Caesar?",
+
+        "options": [
+
+          { "text": "Roman Empire", "isCorrect": true },
+
+          { "text": "Greek Empire", "isCorrect": false },
+
+          { "text": "Ottoman Empire", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "In which year did the Titanic sink?",
+
+        "options": [
+
+          { "text": "1912", "isCorrect": true },
+
+          { "text": "1905", "isCorrect": false },
+
+          { "text": "1920", "isCorrect": false }
+
+        ]
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "title": "Geography Quiz",
+
+    "questions": [
+
+      {
+
+        "text": "Which is the largest desert in the world?",
+
+        "options": [
+
+          { "text": "Sahara", "isCorrect": true },
+
+          { "text": "Gobi", "isCorrect": false },
+
+          { "text": "Atacama", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Which river flows through Egypt?",
+
+        "options": [
+
+          { "text": "Nile", "isCorrect": true },
+
+          { "text": "Amazon", "isCorrect": false },
+
+          { "text": "Yangtze", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What is the largest ocean on Earth?",
+
+        "options": [
+
+          { "text": "Pacific Ocean", "isCorrect": true },
+
+          { "text": "Atlantic Ocean", "isCorrect": false },
+
+          { "text": "Indian Ocean", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Which country has the most population?",
+
+        "options": [
+
+          { "text": "China", "isCorrect": true },
+
+          { "text": "India", "isCorrect": false },
+
+          { "text": "United States", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What is the capital of Australia?",
+
+        "options": [
+
+          { "text": "Canberra", "isCorrect": true },
+
+          { "text": "Sydney", "isCorrect": false },
+
+          { "text": "Melbourne", "isCorrect": false }
+
+        ]
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "title": "Technology Quiz",
+
+    "questions": [
+
+      {
+
+        "text": "Who is known as the father of computers?",
+
+        "options": [
+
+          { "text": "Charles Babbage", "isCorrect": true },
+
+          { "text": "Alan Turing", "isCorrect": false },
+
+          { "text": "Bill Gates", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What does HTTP stand for?",
+
+        "options": [
+
+          { "text": "HyperText Transfer Protocol", "isCorrect": true },
+
+          { "text": "HyperText Transfer Page", "isCorrect": false },
+
+          { "text": "HyperText Transmission Protocol", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What is the main function of RAM?",
+
+        "options": [
+
+          {
+
+            "text": "Temporary storage for processing data",
+
+            "isCorrect": true
+
+          },
+
+          { "text": "Permanent storage for data", "isCorrect": false },
+
+          { "text": "To power the computer", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "Who founded Microsoft?",
+
+        "options": [
+
+          { "text": "Bill Gates", "isCorrect": true },
+
+          { "text": "Steve Jobs", "isCorrect": false },
+
+          { "text": "Mark Zuckerberg", "isCorrect": false }
+
+        ]
+
+      },
+
+      {
+
+        "text": "What programming language is used for Android development?",
+
+        "options": [
+
+          { "text": "Java", "isCorrect": true },
+
+          { "text": "Python", "isCorrect": false },
+
+          { "text": "Swift", "isCorrect": false }
+
+        ]
+
+      }
+
+    ]
+
+  }
+
+]

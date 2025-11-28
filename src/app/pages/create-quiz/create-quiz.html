@@ -1,0 +1,83 @@
+<div class="container">
+  <h1>Create a new Quiz</h1>
+
+  <form class="quiz-form" (ngSubmit)="onSubmit()" [formGroup]="quizForm">
+    <div class="form-group">
+      <label for="title" class="form-label">Quiz title</label>
+      <input
+        id="title"
+        type="text"
+        class="form-control"
+        formControlName="title"
+        placeholder="Enter quiz name"
+      />
+      <div class="error-message"
+           *ngIf="quizForm.get('title')?.invalid && quizForm.get('title')?.touched">
+        Quiz title is required!
+      </div>
+    </div>
+
+    <div class="questions-container" formArrayName="questions">
+      <div
+        class="question-group"
+        *ngFor="let question of question.controls; let i = index"[formGroupName]="i">
+        <div class="form-group">
+          <label [for]="'question-' + i" class="form-label">Question {{i+1}}</label>
+          <input
+            [id]="'question-' + i"
+            type="text"
+            class="form-control"
+            
+            placeholder="Enter question"
+            formControlName="text"
+          />
+          <div class="error-message"
+               *ngIf="question.get('text')?.invalid && question.get('text')?.touched">
+            Question is required!
+          </div>
+        </div>
+        <div class="options-container" formArrayName="options">
+          <div
+            class="option-group"
+            *ngFor="let option of getOptions(i).controls; let j = index"
+            [formGroupName]="j">
+
+            <div class="form-group">
+                <label [for]="'option-' + i + '-' + j" class="form-label">Option {{j+1}}</label>
+              <input
+                [id]="'option-' + i + '-' + j"
+                
+                placeholder="Enter option"
+                class="form-control"
+                formControlName="text"
+              />
+              <div class="error-message"
+                   *ngIf="option.get('text')?.invalid && option.get('text')?.touched">
+                Option is required!
+              </div>
+            </div>
+            <div class="form-group checkbox-group">
+                <input type="checkbox"
+                  [id]="'isCorrect-' + i + '-' + j"
+                  title="Mark as correct answer"
+                  formControlName="isCorrect"
+                />
+                <label [for]="'isCorrect-' + i + '-' + j">Correct answer</label>
+            </div>
+            <button class="btn btn-danger" (click)="removeOption(i, j)" type="button">Remove Option
+
+            </button>
+        </div>
+      </div>
+      <button type="button" (click)="addOption(i)" class="btn btn-secondary">
+        Add Option
+      </button>
+      <button type="button" class="btn btn-danger mt-2" (click)="removeQuestion(i)">Remove Question</button>
+    </div>  
+</div>
+<div class="button-group">
+    <div class="btn btn-primary" (click)="addQuestion()" type="button"> Add Question</div>
+    <button type="submit" [disabled]="quizForm.invalid" class="btn btn-success">Submit Quiz</button>
+</div>
+  </form>   
+</div>
