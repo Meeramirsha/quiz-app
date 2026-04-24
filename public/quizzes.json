@@ -1,459 +1,227 @@
 [
-
   {
-
-    "title": "General Knowledge Quiz",
-
+    "title": "General Knowledge",
     "questions": [
-
-      {
-
-        "text": "What is the capital of Italy?",
-
-        "options": [
-
-          { "text": "Rome", "isCorrect": true },
-
-          { "text": "Venice", "isCorrect": false },
-
-          { "text": "Milan", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Who painted the Mona Lisa?",
-
-        "options": [
-
-          { "text": "Leonardo da Vinci", "isCorrect": true },
-
-          { "text": "Vincent van Gogh", "isCorrect": false },
-
-          { "text": "Pablo Picasso", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Which planet is closest to the sun?",
-
-        "options": [
-
-          { "text": "Mercury", "isCorrect": true },
-
-          { "text": "Venus", "isCorrect": false },
-
-          { "text": "Earth", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What is the tallest mountain in the world?",
-
-        "options": [
-
-          { "text": "Mount Everest", "isCorrect": true },
-
-          { "text": "K2", "isCorrect": false },
-
-          { "text": "Kangchenjunga", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Which country is known as the Land of the Rising Sun?",
-
-        "options": [
-
-          { "text": "Japan", "isCorrect": true },
-
-          { "text": "China", "isCorrect": false },
-
-          { "text": "South Korea", "isCorrect": false }
-
-        ]
-
-      }
-
+      { "text": "What is the capital of France?", "options": [{ "text": "Paris", "isCorrect": true }, { "text": "London", "isCorrect": false }, { "text": "Berlin", "isCorrect": false }] },
+      { "text": "Which ocean is the largest?", "options": [{ "text": "Pacific", "isCorrect": true }, { "text": "Atlantic", "isCorrect": false }, { "text": "Indian", "isCorrect": false }] },
+      { "text": "What is the smallest prime number?", "options": [{ "text": "2", "isCorrect": true }, { "text": "1", "isCorrect": false }, { "text": "3", "isCorrect": false }] },
+      { "text": "Which planet is known as the Red Planet?", "options": [{ "text": "Mars", "isCorrect": true }, { "text": "Venus", "isCorrect": false }, { "text": "Jupiter", "isCorrect": false }] },
+      { "text": "What is the largest mammal in the world?", "options": [{ "text": "Blue Whale", "isCorrect": true }, { "text": "Elephant", "isCorrect": false }, { "text": "Giraffe", "isCorrect": false }] },
+      { "text": "In which city can you find the Colosseum?", "options": [{ "text": "Rome", "isCorrect": true }, { "text": "Athens", "isCorrect": false }, { "text": "Paris", "isCorrect": false }] },
+      { "text": "What is the square root of 144?", "options": [{ "text": "12", "isCorrect": true }, { "text": "14", "isCorrect": false }, { "text": "10", "isCorrect": false }] },
+      { "text": "Who painted the Mona Lisa?", "options": [{ "text": "Leonardo da Vinci", "isCorrect": true }, { "text": "Vincent van Gogh", "isCorrect": false }, { "text": "Pablo Picasso", "isCorrect": false }] },
+      { "text": "What is the chemical symbol for water?", "options": [{ "text": "H2O", "isCorrect": true }, { "text": "O2", "isCorrect": false }, { "text": "CO2", "isCorrect": false }] },
+      { "text": "Which country is the largest by land area?", "options": [{ "text": "Russia", "isCorrect": true }, { "text": "Canada", "isCorrect": false }, { "text": "China", "isCorrect": false }] },
+      { "text": "What is the currency of Japan?", "options": [{ "text": "Yen", "isCorrect": true }, { "text": "Won", "isCorrect": false }, { "text": "Yuan", "isCorrect": false }] },
+      { "text": "How many continents are there?", "options": [{ "text": "7", "isCorrect": true }, { "text": "6", "isCorrect": false }, { "text": "8", "isCorrect": false }] },
+      { "text": "What is the capital of Italy?", "options": [{ "text": "Rome", "isCorrect": true }, { "text": "Milan", "isCorrect": false }, { "text": "Naples", "isCorrect": false }] },
+      { "text": "Which element has the atomic number 1?", "options": [{ "text": "Hydrogen", "isCorrect": true }, { "text": "Helium", "isCorrect": false }, { "text": "Oxygen", "isCorrect": false }] },
+      { "text": "What is the longest river in the world?", "options": [{ "text": "Nile", "isCorrect": true }, { "text": "Amazon", "isCorrect": false }, { "text": "Yangtze", "isCorrect": false }] },
+      { "text": "Who wrote '1984'?", "options": [{ "text": "George Orwell", "isCorrect": true }, { "text": "Aldous Huxley", "isCorrect": false }, { "text": "Ray Bradbury", "isCorrect": false }] },
+      { "text": "What is the freezing point of water in Celsius?", "options": [{ "text": "0", "isCorrect": true }, { "text": "32", "isCorrect": false }, { "text": "100", "isCorrect": false }] },
+      { "text": "Which bird is the symbol of peace?", "options": [{ "text": "Dove", "isCorrect": true }, { "text": "Eagle", "isCorrect": false }, { "text": "Owl", "isCorrect": false }] },
+      { "text": "What is the capital of Japan?", "options": [{ "text": "Tokyo", "isCorrect": true }, { "text": "Kyoto", "isCorrect": false }, { "text": "Osaka", "isCorrect": false }] },
+      { "text": "How many colors are there in a rainbow?", "options": [{ "text": "7", "isCorrect": true }, { "text": "6", "isCorrect": false }, { "text": "8", "isCorrect": false }] }
     ]
-
   },
-
   {
-
-    "title": "Science Quiz",
-
+    "title": "Art & Literature",
     "questions": [
-
-      {
-
-        "text": "What is the chemical symbol for Gold?",
-
-        "options": [
-
-          { "text": "Au", "isCorrect": true },
-
-          { "text": "Ag", "isCorrect": false },
-
-          { "text": "Go", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What is the powerhouse of the cell?",
-
-        "options": [
-
-          { "text": "Mitochondria", "isCorrect": true },
-
-          { "text": "Nucleus", "isCorrect": false },
-
-          { "text": "Ribosome", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What gas do plants absorb during photosynthesis?",
-
-        "options": [
-
-          { "text": "Carbon dioxide", "isCorrect": true },
-
-          { "text": "Oxygen", "isCorrect": false },
-
-          { "text": "Nitrogen", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What is the boiling point of water at sea level?",
-
-        "options": [
-
-          { "text": "100°C", "isCorrect": true },
-
-          { "text": "90°C", "isCorrect": false },
-
-          { "text": "110°C", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What is the speed of light in vacuum?",
-
-        "options": [
-
-          { "text": "300,000 km/s", "isCorrect": true },
-
-          { "text": "150,000 km/s", "isCorrect": false },
-
-          { "text": "450,000 km/s", "isCorrect": false }
-
-        ]
-
-      }
-
+      { "text": "Who wrote 'Romeo and Juliet'?", "options": [{ "text": "William Shakespeare", "isCorrect": true }, { "text": "Charles Dickens", "isCorrect": false }, { "text": "Jane Austen", "isCorrect": false }] },
+      { "text": "Which artist painted the 'Starry Night'?", "options": [{ "text": "Vincent van Gogh", "isCorrect": true }, { "text": "Claude Monet", "isCorrect": false }, { "text": "Edvard Munch", "isCorrect": false }] },
+      { "text": "Who is the author of 'To Kill a Mockingbird'?", "options": [{ "text": "Harper Lee", "isCorrect": true }, { "text": "Truman Capote", "isCorrect": false }, { "text": "F. Scott Fitzgerald", "isCorrect": false }] },
+      { "text": "Which art movement is Salvador Dali associated with?", "options": [{ "text": "Surrealism", "isCorrect": true }, { "text": "Impressionism", "isCorrect": false }, { "text": "Cubism", "isCorrect": false }] },
+      { "text": "Who wrote 'The Odyssey'?", "options": [{ "text": "Homer", "isCorrect": true }, { "text": "Virgil", "isCorrect": false }, { "text": "Sophocles", "isCorrect": false }] },
+      { "text": "Which novel begins with 'Call me Ishmael'?", "options": [{ "text": "Moby Dick", "isCorrect": true }, { "text": "The Old Man and the Sea", "isCorrect": false }, { "text": "Robinson Crusoe", "isCorrect": false }] },
+      { "text": "Who painted the Sistine Chapel ceiling?", "options": [{ "text": "Michelangelo", "isCorrect": true }, { "text": "Raphael", "isCorrect": false }, { "text": "Donatello", "isCorrect": false }] },
+      { "text": "Which play features the character Hamlet?", "options": [{ "text": "Hamlet", "isCorrect": true }, { "text": "Macbeth", "isCorrect": false }, { "text": "Othello", "isCorrect": false }] },
+      { "text": "Who is the author of 'The Great Gatsby'?", "options": [{ "text": "F. Scott Fitzgerald", "isCorrect": true }, { "text": "Ernest Hemingway", "isCorrect": false }, { "text": "John Steinbeck", "isCorrect": false }] },
+      { "text": "Which artist is famous for his 'Campbell's Soup Cans'?", "options": [{ "text": "Andy Warhol", "isCorrect": true }, { "text": "Roy Lichtenstein", "isCorrect": false }, { "text": "Jackson Pollock", "isCorrect": false }] },
+      { "text": "Who wrote 'Pride and Prejudice'?", "options": [{ "text": "Jane Austen", "isCorrect": true }, { "text": "Charlotte Bronte", "isCorrect": false }, { "text": "Mary Shelley", "isCorrect": false }] },
+      { "text": "What is the name of the wizard in 'The Lord of the Rings'?", "options": [{ "text": "Gandalf", "isCorrect": true }, { "text": "Dumbledore", "isCorrect": false }, { "text": "Merlin", "isCorrect": false }] },
+      { "text": "Who painted 'The Scream'?", "options": [{ "text": "Edvard Munch", "isCorrect": true }, { "text": "Gustav Klimt", "isCorrect": false }, { "text": "Henri Matisse", "isCorrect": false }] },
+      { "text": "Which book series features Katniss Everdeen?", "options": [{ "text": "The Hunger Games", "isCorrect": true }, { "text": "Divergent", "isCorrect": false }, { "text": "Twilight", "isCorrect": false }] },
+      { "text": "Who is the author of 'Wuthering Heights'?", "options": [{ "text": "Emily Bronte", "isCorrect": true }, { "text": "Anne Bronte", "isCorrect": false }, { "text": "George Eliot", "isCorrect": false }] },
+      { "text": "Which poet wrote 'The Raven'?", "options": [{ "text": "Edgar Allan Poe", "isCorrect": true }, { "text": "Walt Whitman", "isCorrect": false }, { "text": "Robert Frost", "isCorrect": false }] },
+      { "text": "Who wrote 'The Hobbit'?", "options": [{ "text": "J.R.R. Tolkien", "isCorrect": true }, { "text": "C.S. Lewis", "isCorrect": false }, { "text": "Roald Dahl", "isCorrect": false }] },
+      { "text": "Which artist painted 'The Last Supper'?", "options": [{ "text": "Leonardo da Vinci", "isCorrect": true }, { "text": "Botticelli", "isCorrect": false }, { "text": "Titian", "isCorrect": false }] },
+      { "text": "Who is the author of 'The Picture of Dorian Gray'?", "options": [{ "text": "Oscar Wilde", "isCorrect": true }, { "text": "Bram Stoker", "isCorrect": false }, { "text": "H.G. Wells", "isCorrect": false }] },
+      { "text": "Which Dickens novel features Oliver Twist?", "options": [{ "text": "Oliver Twist", "isCorrect": true }, { "text": "David Copperfield", "isCorrect": false }, { "text": "Great Expectations", "isCorrect": false }] }
     ]
-
   },
-
   {
-
-    "title": "History Quiz",
-
+    "title": "Entertainment",
     "questions": [
-
-      {
-
-        "text": "Who was the first President of the United States?",
-
-        "options": [
-
-          { "text": "George Washington", "isCorrect": true },
-
-          { "text": "Abraham Lincoln", "isCorrect": false },
-
-          { "text": "Thomas Jefferson", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "When did World War II end?",
-
-        "options": [
-
-          { "text": "1945", "isCorrect": true },
-
-          { "text": "1939", "isCorrect": false },
-
-          { "text": "1950", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Who discovered America?",
-
-        "options": [
-
-          { "text": "Christopher Columbus", "isCorrect": true },
-
-          { "text": "Ferdinand Magellan", "isCorrect": false },
-
-          { "text": "James Cook", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Which empire was ruled by Julius Caesar?",
-
-        "options": [
-
-          { "text": "Roman Empire", "isCorrect": true },
-
-          { "text": "Greek Empire", "isCorrect": false },
-
-          { "text": "Ottoman Empire", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "In which year did the Titanic sink?",
-
-        "options": [
-
-          { "text": "1912", "isCorrect": true },
-
-          { "text": "1905", "isCorrect": false },
-
-          { "text": "1920", "isCorrect": false }
-
-        ]
-
-      }
-
+      { "text": "Who directed 'Pulp Fiction'?", "options": [{ "text": "Quentin Tarantino", "isCorrect": true }, { "text": "Martin Scorsese", "isCorrect": false }, { "text": "Steven Spielberg", "isCorrect": false }] },
+      { "text": "Which movie features the song 'My Heart Will Go On'?", "options": [{ "text": "Titanic", "isCorrect": true }, { "text": "The Bodyguard", "isCorrect": false }, { "text": "Moulin Rouge!", "isCorrect": false }] },
+      { "text": "Who played Jack Sparrow in 'Pirates of the Caribbean'?", "options": [{ "text": "Johnny Depp", "isCorrect": true }, { "text": "Orlando Bloom", "isCorrect": false }, { "text": "Geoffrey Rush", "isCorrect": false }] },
+      { "text": "Which animated film features the character Simba?", "options": [{ "text": "The Lion King", "isCorrect": true }, { "text": "Aladdin", "isCorrect": false }, { "text": "Tarzan", "isCorrect": false }] },
+      { "text": "Who won the first season of 'American Idol'?", "options": [{ "text": "Kelly Clarkson", "isCorrect": true }, { "text": "Carrie Underwood", "isCorrect": false }, { "text": "Jordin Sparks", "isCorrect": false }] },
+      { "text": "Which show features the town of Hawkins?", "options": [{ "text": "Stranger Things", "isCorrect": true }, { "text": "Dark", "isCorrect": false }, { "text": "The Witcher", "isCorrect": false }] },
+      { "text": "Who is the 'King of Pop'?", "options": [{ "text": "Michael Jackson", "isCorrect": true }, { "text": "Elvis Presley", "isCorrect": false }, { "text": "Prince", "isCorrect": false }] },
+      { "text": "Which film won Best Picture in 2020?", "options": [{ "text": "Parasite", "isCorrect": true }, { "text": "1917", "isCorrect": false }, { "text": "Joker", "isCorrect": false }] },
+      { "text": "Who played the Joker in 'The Dark Knight'?", "options": [{ "text": "Heath Ledger", "isCorrect": true }, { "text": "Joaquin Phoenix", "isCorrect": false }, { "text": "Jack Nicholson", "isCorrect": false }] },
+      { "text": "Which sitcom features characters Rachel, Ross, and Joey?", "options": [{ "text": "Friends", "isCorrect": true }, { "text": "Seinfeld", "isCorrect": false }, { "text": "The Office", "isCorrect": false }] },
+      { "text": "Who is the lead singer of Queen?", "options": [{ "text": "Freddie Mercury", "isCorrect": true }, { "text": "Mick Jagger", "isCorrect": false }, { "text": "David Bowie", "isCorrect": false }] },
+      { "text": "Which movie franchise features a 'Flux Capacitor'?", "options": [{ "text": "Back to the Future", "isCorrect": true }, { "text": "Star Wars", "isCorrect": false }, { "text": "Star Trek", "isCorrect": false }] },
+      { "text": "Who created the show 'Family Guy'?", "options": [{ "text": "Seth MacFarlane", "isCorrect": true }, { "text": "Matt Groening", "isCorrect": false }, { "text": "Trey Parker", "isCorrect": false }] },
+      { "text": "Which HBO series is based on books by George R.R. Martin?", "options": [{ "text": "Game of Thrones", "isCorrect": true }, { "text": "The Wire", "isCorrect": false }, { "text": "The Sopranos", "isCorrect": false }] },
+      { "text": "Who directed 'Inception'?", "options": [{ "text": "Christopher Nolan", "isCorrect": true }, { "text": "James Cameron", "isCorrect": false }, { "text": "Wes Anderson", "isCorrect": false }] },
+      { "text": "Which band released the album 'The Dark Side of the Moon'?", "options": [{ "text": "Pink Floyd", "isCorrect": true }, { "text": "The Beatles", "isCorrect": false }, { "text": "Led Zeppelin", "isCorrect": false }] },
+      { "text": "Who played Harry Potter in the films?", "options": [{ "text": "Daniel Radcliffe", "isCorrect": true }, { "text": "Rupert Grint", "isCorrect": false }, { "text": "Tom Felton", "isCorrect": false }] },
+      { "text": "Which country is the artist Shakira from?", "options": [{ "text": "Colombia", "isCorrect": true }, { "text": "Mexico", "isCorrect": false }, { "text": "Spain", "isCorrect": false }] },
+      { "text": "Who is the host of 'The Late Show' since 2015?", "options": [{ "text": "Stephen Colbert", "isCorrect": true }, { "text": "Jimmy Fallon", "isCorrect": false }, { "text": "Conan O'Brien", "isCorrect": false }] },
+      { "text": "Which superhero is also known as Diana Prince?", "options": [{ "text": "Wonder Woman", "isCorrect": true }, { "text": "Black Widow", "isCorrect": false }, { "text": "Captain Marvel", "isCorrect": false }] }
     ]
-
   },
-
   {
-
-    "title": "Geography Quiz",
-
+    "title": "Geography",
     "questions": [
-
-      {
-
-        "text": "Which is the largest desert in the world?",
-
-        "options": [
-
-          { "text": "Sahara", "isCorrect": true },
-
-          { "text": "Gobi", "isCorrect": false },
-
-          { "text": "Atacama", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Which river flows through Egypt?",
-
-        "options": [
-
-          { "text": "Nile", "isCorrect": true },
-
-          { "text": "Amazon", "isCorrect": false },
-
-          { "text": "Yangtze", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What is the largest ocean on Earth?",
-
-        "options": [
-
-          { "text": "Pacific Ocean", "isCorrect": true },
-
-          { "text": "Atlantic Ocean", "isCorrect": false },
-
-          { "text": "Indian Ocean", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Which country has the most population?",
-
-        "options": [
-
-          { "text": "China", "isCorrect": true },
-
-          { "text": "India", "isCorrect": false },
-
-          { "text": "United States", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What is the capital of Australia?",
-
-        "options": [
-
-          { "text": "Canberra", "isCorrect": true },
-
-          { "text": "Sydney", "isCorrect": false },
-
-          { "text": "Melbourne", "isCorrect": false }
-
-        ]
-
-      }
-
+      { "text": "What is the capital of Australia?", "options": [{ "text": "Canberra", "isCorrect": true }, { "text": "Sydney", "isCorrect": false }, { "text": "Melbourne", "isCorrect": false }] },
+      { "text": "Which is the largest desert in the world?", "options": [{ "text": "Antarctica", "isCorrect": true }, { "text": "Sahara", "isCorrect": false }, { "text": "Gobi", "isCorrect": false }] },
+      { "text": "Which country has the most natural lakes?", "options": [{ "text": "Canada", "isCorrect": true }, { "text": "USA", "isCorrect": false }, { "text": "Russia", "isCorrect": false }] },
+      { "text": "Which mountain is the highest in Africa?", "options": [{ "text": "Mount Kilimanjaro", "isCorrect": true }, { "text": "Mount Kenya", "isCorrect": false }, { "text": "Mount Sinai", "isCorrect": false }] },
+      { "text": "What is the smallest country in Asia?", "options": [{ "text": "Maldives", "isCorrect": true }, { "text": "Singapore", "isCorrect": false }, { "text": "Brunei", "isCorrect": false }] },
+      { "text": "Which is the only country that is also a continent?", "options": [{ "text": "Australia", "isCorrect": true }, { "text": "Antarctica", "isCorrect": false }, { "text": "Greenland", "isCorrect": false }] },
+      { "text": "What is the capital of Canada?", "options": [{ "text": "Ottawa", "isCorrect": true }, { "text": "Toronto", "isCorrect": false }, { "text": "Vancouver", "isCorrect": false }] },
+      { "text": "Which city is built on 118 small islands?", "options": [{ "text": "Venice", "isCorrect": true }, { "text": "Amsterdam", "isCorrect": false }, { "text": "Stockholm", "isCorrect": false }] },
+      { "text": "Which river flows through Cairo?", "options": [{ "text": "Nile", "isCorrect": true }, { "text": "Tigris", "isCorrect": false }, { "text": "Euphrates", "isCorrect": false }] },
+      { "text": "In which country is the Taj Mahal located?", "options": [{ "text": "India", "isCorrect": true }, { "text": "Pakistan", "isCorrect": false }, { "text": "Bangladesh", "isCorrect": false }] },
+      { "text": "Which is the most populous city in the world?", "options": [{ "text": "Tokyo", "isCorrect": true }, { "text": "Shanghai", "isCorrect": false }, { "text": "Delhi", "isCorrect": false }] },
+      { "text": "What is the capital of Brazil?", "options": [{ "text": "Brasília", "isCorrect": true }, { "text": "Rio de Janeiro", "isCorrect": false }, { "text": "São Paulo", "isCorrect": false }] },
+      { "text": "Which ocean is the smallest?", "options": [{ "text": "Arctic", "isCorrect": true }, { "text": "Indian", "isCorrect": false }, { "text": "Atlantic", "isCorrect": false }] },
+      { "text": "Which country is known as the Land of the Rising Sun?", "options": [{ "text": "Japan", "isCorrect": true }, { "text": "China", "isCorrect": false }, { "text": "South Korea", "isCorrect": false }] },
+      { "text": "What is the capital of Germany?", "options": [{ "text": "Berlin", "isCorrect": true }, { "text": "Munich", "isCorrect": false }, { "text": "Frankfurt", "isCorrect": false }] },
+      { "text": "Which is the largest island in the world?", "options": [{ "text": "Greenland", "isCorrect": true }, { "text": "Australia", "isCorrect": false }, { "text": "New Guinea", "isCorrect": false }] },
+      { "text": "Which country is home to the Amazon rainforest?", "options": [{ "text": "Brazil", "isCorrect": true }, { "text": "Peru", "isCorrect": false }, { "text": "Colombia", "isCorrect": false }] },
+      { "text": "What is the capital of Spain?", "options": [{ "text": "Madrid", "isCorrect": true }, { "text": "Barcelona", "isCorrect": false }, { "text": "Seville", "isCorrect": false }] },
+      { "text": "Which sea is located between Europe and Africa?", "options": [{ "text": "Mediterranean", "isCorrect": true }, { "text": "Red Sea", "isCorrect": false }, { "text": "Black Sea", "isCorrect": false }] },
+      { "text": "Which state is the largest in the USA?", "options": [{ "text": "Alaska", "isCorrect": true }, { "text": "Texas", "isCorrect": false }, { "text": "California", "isCorrect": false }] }
     ]
-
   },
-
   {
-
-    "title": "Technology Quiz",
-
+    "title": "History",
     "questions": [
-
-      {
-
-        "text": "Who is known as the father of computers?",
-
-        "options": [
-
-          { "text": "Charles Babbage", "isCorrect": true },
-
-          { "text": "Alan Turing", "isCorrect": false },
-
-          { "text": "Bill Gates", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What does HTTP stand for?",
-
-        "options": [
-
-          { "text": "HyperText Transfer Protocol", "isCorrect": true },
-
-          { "text": "HyperText Transfer Page", "isCorrect": false },
-
-          { "text": "HyperText Transmission Protocol", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What is the main function of RAM?",
-
-        "options": [
-
-          {
-
-            "text": "Temporary storage for processing data",
-
-            "isCorrect": true
-
-          },
-
-          { "text": "Permanent storage for data", "isCorrect": false },
-
-          { "text": "To power the computer", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "Who founded Microsoft?",
-
-        "options": [
-
-          { "text": "Bill Gates", "isCorrect": true },
-
-          { "text": "Steve Jobs", "isCorrect": false },
-
-          { "text": "Mark Zuckerberg", "isCorrect": false }
-
-        ]
-
-      },
-
-      {
-
-        "text": "What programming language is used for Android development?",
-
-        "options": [
-
-          { "text": "Java", "isCorrect": true },
-
-          { "text": "Python", "isCorrect": false },
-
-          { "text": "Swift", "isCorrect": false }
-
-        ]
-
-      }
-
+      { "text": "Who was the first President of the United States?", "options": [{ "text": "George Washington", "isCorrect": true }, { "text": "Thomas Jefferson", "isCorrect": false }, { "text": "John Adams", "isCorrect": false }] },
+      { "text": "In which year did World War II end?", "options": [{ "text": "1945", "isCorrect": true }, { "text": "1944", "isCorrect": false }, { "text": "1946", "isCorrect": false }] },
+      { "text": "Who was known as the 'Maid of Orleans'?", "options": [{ "text": "Joan of Arc", "isCorrect": true }, { "text": "Marie Antoinette", "isCorrect": false }, { "text": "Catherine the Great", "isCorrect": false }] },
+      { "text": "Which empire was ruled by Julius Caesar?", "options": [{ "text": "Roman Empire", "isCorrect": true }, { "text": "Greek Empire", "isCorrect": false }, { "text": "Ottoman Empire", "isCorrect": false }] },
+      { "text": "What was the name of the ship that brought the Pilgrims to America?", "options": [{ "text": "Mayflower", "isCorrect": true }, { "text": "Santa Maria", "isCorrect": false }, { "text": "Beagle", "isCorrect": false }] },
+      { "text": "Who discovered America in 1492?", "options": [{ "text": "Christopher Columbus", "isCorrect": true }, { "text": "Vasco da Gama", "isCorrect": false }, { "text": "Amerigo Vespucci", "isCorrect": false }] },
+      { "text": "Which war was fought between the North and South in the USA?", "options": [{ "text": "Civil War", "isCorrect": true }, { "text": "Revolutionary War", "isCorrect": false }, { "text": "War of 1812", "isCorrect": false }] },
+      { "text": "Who was the first man to step on the Moon?", "options": [{ "text": "Neil Armstrong", "isCorrect": true }, { "text": "Buzz Aldrin", "isCorrect": false }, { "text": "Yuri Gagarin", "isCorrect": false }] },
+      { "text": "Which wall fell in 1989?", "options": [{ "text": "Berlin Wall", "isCorrect": true }, { "text": "Great Wall of China", "isCorrect": false }, { "text": "Western Wall", "isCorrect": false }] },
+      { "text": "Who was the Queen of England during the Victorian Era?", "options": [{ "text": "Queen Victoria", "isCorrect": true }, { "text": "Queen Elizabeth I", "isCorrect": false }, { "text": "Queen Anne", "isCorrect": false }] },
+      { "text": "Which civilization built the pyramids?", "options": [{ "text": "Egyptian", "isCorrect": true }, { "text": "Mayan", "isCorrect": false }, { "text": "Roman", "isCorrect": false }] },
+      { "text": "Who wrote the 'I Have a Dream' speech?", "options": [{ "text": "Martin Luther King Jr.", "isCorrect": true }, { "text": "Malcolm X", "isCorrect": false }, { "text": "Nelson Mandela", "isCorrect": false }] },
+      { "text": "Which revolution started in 1789?", "options": [{ "text": "French Revolution", "isCorrect": true }, { "text": "American Revolution", "isCorrect": false }, { "text": "Industrial Revolution", "isCorrect": false }] },
+      { "text": "Who was the leader of the Soviet Union during WWII?", "options": [{ "text": "Joseph Stalin", "isCorrect": true }, { "text": "Vladimir Lenin", "isCorrect": false }, { "text": "Nikita Khrushchev", "isCorrect": false }] },
+      { "text": "Which treaty ended WWI?", "options": [{ "text": "Treaty of Versailles", "isCorrect": true }, { "text": "Treaty of Paris", "isCorrect": false }, { "text": "Treaty of Ghent", "isCorrect": false }] },
+      { "text": "Who was the primary author of the Declaration of Independence?", "options": [{ "text": "Thomas Jefferson", "isCorrect": true }, { "text": "Benjamin Franklin", "isCorrect": false }, { "text": "James Madison", "isCorrect": false }] },
+      { "text": "Which ancient city was destroyed by a volcano in 79 AD?", "options": [{ "text": "Pompeii", "isCorrect": true }, { "text": "Carthage", "isCorrect": false }, { "text": "Troy", "isCorrect": false }] },
+      { "text": "Who was the 'Iron Lady' of British politics?", "options": [{ "text": "Margaret Thatcher", "isCorrect": true }, { "text": "Theresa May", "isCorrect": false }, { "text": "Angela Merkel", "isCorrect": false }] },
+      { "text": "Which Greek philosopher was a teacher of Alexander the Great?", "options": [{ "text": "Aristotle", "isCorrect": true }, { "text": "Plato", "isCorrect": false }, { "text": "Socrates", "isCorrect": false }] },
+      { "text": "In which year did the French Revolution begin?", "options": [{ "text": "1789", "isCorrect": true }, { "text": "1776", "isCorrect": false }, { "text": "1799", "isCorrect": false }] }
     ]
-
+  },
+  {
+    "title": "Languages",
+    "questions": [
+      { "text": "What is the official language of Brazil?", "options": [{ "text": "Portuguese", "isCorrect": true }, { "text": "Spanish", "isCorrect": false }, { "text": "French", "isCorrect": false }] },
+      { "text": "Which language uses Cyrillic script?", "options": [{ "text": "Russian", "isCorrect": true }, { "text": "Greek", "isCorrect": false }, { "text": "Hindi", "isCorrect": false }] },
+      { "text": "What is the most spoken language in South America?", "options": [{ "text": "Spanish", "isCorrect": true }, { "text": "Portuguese", "isCorrect": false }, { "text": "English", "isCorrect": false }] },
+      { "text": "Which language is known as the 'language of love'?", "options": [{ "text": "French", "isCorrect": true }, { "text": "Italian", "isCorrect": false }, { "text": "Spanish", "isCorrect": false }] },
+      { "text": "How many letters are in the English alphabet?", "options": [{ "text": "26", "isCorrect": true }, { "text": "25", "isCorrect": false }, { "text": "27", "isCorrect": false }] },
+      { "text": "Which language has the most native speakers?", "options": [{ "text": "Mandarin", "isCorrect": true }, { "text": "English", "isCorrect": false }, { "text": "Hindi", "isCorrect": false }] },
+      { "text": "What language is spoken in Egypt?", "options": [{ "text": "Arabic", "isCorrect": true }, { "text": "Coptic", "isCorrect": false }, { "text": "Egyptian", "isCorrect": false }] },
+      { "text": "Which language is primarily spoken in Quebec, Canada?", "options": [{ "text": "French", "isCorrect": true }, { "text": "English", "isCorrect": false }, { "text": "Spanish", "isCorrect": false }] },
+      { "text": "What is the study of language called?", "options": [{ "text": "Linguistics", "isCorrect": true }, { "text": "Phonetics", "isCorrect": false }, { "text": "Syntax", "isCorrect": false }] },
+      { "text": "Which language uses Kanji symbols?", "options": [{ "text": "Japanese", "isCorrect": true }, { "text": "Chinese", "isCorrect": false }, { "text": "Korean", "isCorrect": false }] },
+      { "text": "What is the most common second language in the world?", "options": [{ "text": "English", "isCorrect": true }, { "text": "Spanish", "isCorrect": false }, { "text": "French", "isCorrect": false }] },
+      { "text": "Which language is spoken in Austria?", "options": [{ "text": "German", "isCorrect": true }, { "text": "Austrian", "isCorrect": false }, { "text": "Hungarian", "isCorrect": false }] },
+      { "text": "What script is used to write Hindi?", "options": [{ "text": "Devanagari", "isCorrect": true }, { "text": "Sanskrit", "isCorrect": false }, { "text": "Latin", "isCorrect": false }] },
+      { "text": "Which language is known as 'Castilian'?", "options": [{ "text": "Spanish", "isCorrect": true }, { "text": "Catalan", "isCorrect": false }, { "text": "Galician", "isCorrect": false }] },
+      { "text": "What is the primary language of Israel?", "options": [{ "text": "Hebrew", "isCorrect": true }, { "text": "Arabic", "isCorrect": false }, { "text": "Yiddish", "isCorrect": false }] },
+      { "text": "Which language family does English belong to?", "options": [{ "text": "Germanic", "isCorrect": true }, { "text": "Romance", "isCorrect": false }, { "text": "Slavic", "isCorrect": false }] },
+      { "text": "What is the native language of the largest number of people in India?", "options": [{ "text": "Hindi", "isCorrect": true }, { "text": "Bengali", "isCorrect": false }, { "text": "Tamil", "isCorrect": false }] },
+      { "text": "Which language is spoken in Belgium?", "options": [{ "text": "Dutch, French, and German", "isCorrect": true }, { "text": "Belgian", "isCorrect": false }, { "text": "Flemish only", "isCorrect": false }] },
+      { "text": "What language is 'Guten Tag' associated with?", "options": [{ "text": "German", "isCorrect": true }, { "text": "Dutch", "isCorrect": false }, { "text": "Swedish", "isCorrect": false }] },
+      { "text": "Which language is the basis for many modern legal terms?", "options": [{ "text": "Latin", "isCorrect": true }, { "text": "Greek", "isCorrect": false }, { "text": "French", "isCorrect": false }] }
+    ]
+  },
+  {
+    "title": "Science & Nature",
+    "questions": [
+      { "text": "What is the chemical symbol for Gold?", "options": [{ "text": "Au", "isCorrect": true }, { "text": "Ag", "isCorrect": false }, { "text": "Gd", "isCorrect": false }] },
+      { "text": "Which planet is closest to the Sun?", "options": [{ "text": "Mercury", "isCorrect": true }, { "text": "Venus", "isCorrect": false }, { "text": "Earth", "isCorrect": false }] },
+      { "text": "How many legs does a spider have?", "options": [{ "text": "8", "isCorrect": true }, { "text": "6", "isCorrect": false }, { "text": "10", "isCorrect": false }] },
+      { "text": "What gas do plants absorb from the atmosphere?", "options": [{ "text": "Carbon Dioxide", "isCorrect": true }, { "text": "Oxygen", "isCorrect": false }, { "text": "Nitrogen", "isCorrect": false }] },
+      { "text": "What is the hardest natural substance on Earth?", "options": [{ "text": "Diamond", "isCorrect": true }, { "text": "Graphite", "isCorrect": false }, { "text": "Quartz", "isCorrect": false }] },
+      { "text": "What is the name of the closest star to Earth?", "options": [{ "text": "The Sun", "isCorrect": true }, { "text": "Proxima Centauri", "isCorrect": false }, { "text": "Alpha Centauri", "isCorrect": false }] },
+      { "text": "Which organ in the human body is responsible for pumping blood?", "options": [{ "text": "Heart", "isCorrect": true }, { "text": "Lungs", "isCorrect": false }, { "text": "Brain", "isCorrect": false }] },
+      { "text": "What is the chemical symbol for Oxygen?", "options": [{ "text": "O", "isCorrect": true }, { "text": "O2", "isCorrect": false }, { "text": "Ox", "isCorrect": false }] },
+      { "text": "How many bones are in the adult human body?", "options": [{ "text": "206", "isCorrect": true }, { "text": "205", "isCorrect": false }, { "text": "210", "isCorrect": false }] },
+      { "text": "What is the speed of light approximately?", "options": [{ "text": "300,000 km/s", "isCorrect": true }, { "text": "150,000 km/s", "isCorrect": false }, { "text": "500,000 km/s", "isCorrect": false }] },
+      { "text": "What is the largest organ of the human body?", "options": [{ "text": "Skin", "isCorrect": true }, { "text": "Liver", "isCorrect": false }, { "text": "Brain", "isCorrect": false }] },
+      { "text": "Which element is the most abundant in the Earth's atmosphere?", "options": [{ "text": "Nitrogen", "isCorrect": true }, { "text": "Oxygen", "isCorrect": false }, { "text": "Argon", "isCorrect": false }] },
+      { "text": "What is the study of fossils called?", "options": [{ "text": "Paleontology", "isCorrect": true }, { "text": "Archaeology", "isCorrect": false }, { "text": "Biology", "isCorrect": false }] },
+      { "text": "Which part of the plant conducts photosynthesis?", "options": [{ "text": "Leaf", "isCorrect": true }, { "text": "Stem", "isCorrect": false }, { "text": "Root", "isCorrect": false }] },
+      { "text": "What is the boiling point of water at sea level?", "options": [{ "text": "100°C", "isCorrect": true }, { "text": "90°C", "isCorrect": false }, { "text": "110°C", "isCorrect": false }] },
+      { "text": "Which planet has a prominent ring system?", "options": [{ "text": "Saturn", "isCorrect": true }, { "text": "Jupiter", "isCorrect": false }, { "text": "Uranus", "isCorrect": false }] },
+      { "text": "What is the chemical formula for salt?", "options": [{ "text": "NaCl", "isCorrect": true }, { "text": "KCl", "isCorrect": false }, { "text": "MgCl", "isCorrect": false }] },
+      { "text": "Who developed the theory of relativity?", "options": [{ "text": "Albert Einstein", "isCorrect": true }, { "text": "Isaac Newton", "isCorrect": false }, { "text": "Stephen Hawking", "isCorrect": false }] },
+      { "text": "What is the largest planet in our solar system?", "options": [{ "text": "Jupiter", "isCorrect": true }, { "text": "Saturn", "isCorrect": false }, { "text": "Neptune", "isCorrect": false }] },
+      { "text": "Which component of blood carries oxygen?", "options": [{ "text": "Red blood cells", "isCorrect": true }, { "text": "White blood cells", "isCorrect": false }, { "text": "Platelets", "isCorrect": false }] }
+    ]
+  },
+  {
+    "title": "Sports",
+    "questions": [
+      { "text": "How many players are on a basketball court for one team?", "options": [{ "text": "5", "isCorrect": true }, { "text": "6", "isCorrect": false }, { "text": "4", "isCorrect": false }] },
+      { "text": "Which country won the 2018 FIFA World Cup?", "options": [{ "text": "France", "isCorrect": true }, { "text": "Croatia", "isCorrect": false }, { "text": "Belgium", "isCorrect": false }] },
+      { "text": "In which sport would you use a shuttlecock?", "options": [{ "text": "Badminton", "isCorrect": true }, { "text": "Tennis", "isCorrect": false }, { "text": "Squash", "isCorrect": false }] },
+      { "text": "How long is a marathon?", "options": [{ "text": "42.195 km", "isCorrect": true }, { "text": "40 km", "isCorrect": false }, { "text": "45 km", "isCorrect": false }] },
+      { "text": "Who has won the most Grand Slam titles in tennis (Men)?", "options": [{ "text": "Novak Djokovic", "isCorrect": true }, { "text": "Rafael Nadal", "isCorrect": false }, { "text": "Roger Federer", "isCorrect": false }] },
+      { "text": "Which city hosted the 2016 Summer Olympics?", "options": [{ "text": "Rio de Janeiro", "isCorrect": true }, { "text": "London", "isCorrect": false }, { "text": "Tokyo", "isCorrect": false }] },
+      { "text": "What is the highest possible score in a single game of bowling?", "options": [{ "text": "300", "isCorrect": true }, { "text": "200", "isCorrect": false }, { "text": "400", "isCorrect": false }] },
+      { "text": "Who is often called the 'G.O.A.T' in basketball?", "options": [{ "text": "Michael Jordan", "isCorrect": true }, { "text": "LeBron James", "isCorrect": false }, { "text": "Kobe Bryant", "isCorrect": false }] },
+      { "text": "Which sport is known as 'the beautiful game'?", "options": [{ "text": "Soccer", "isCorrect": true }, { "text": "Tennis", "isCorrect": false }, { "text": "Cricket", "isCorrect": false }] },
+      { "text": "How many holes are played in a standard round of golf?", "options": [{ "text": "18", "isCorrect": true }, { "text": "9", "isCorrect": false }, { "text": "12", "isCorrect": false }] },
+      { "text": "In which city are the headquarters of the IOC located?", "options": [{ "text": "Lausanne", "isCorrect": true }, { "text": "Geneva", "isCorrect": false }, { "text": "Zurich", "isCorrect": false }] },
+      { "text": "What is the diameter of a basketball hoop in inches?", "options": [{ "text": "18 inches", "isCorrect": true }, { "text": "16 inches", "isCorrect": false }, { "text": "20 inches", "isCorrect": false }] },
+      { "text": "Which team has won the most Super Bowls?", "options": [{ "text": "New England Patriots / Pittsburgh Steelers", "isCorrect": true }, { "text": "Dallas Cowboys", "isCorrect": false }, { "text": "San Francisco 49ers", "isCorrect": false }] },
+      { "text": "Who is the fastest man in history?", "options": [{ "text": "Usain Bolt", "isCorrect": true }, { "text": "Tyson Gay", "isCorrect": false }, { "text": "Yohan Blake", "isCorrect": false }] },
+      { "text": "Which sport uses terms like 'love', 'deuce', and 'advantage'?", "options": [{ "text": "Tennis", "isCorrect": true }, { "text": "Badminton", "isCorrect": false }, { "text": "Table Tennis", "isCorrect": false }] },
+      { "text": "What color is the jersey worn by the leader in the Tour de France?", "options": [{ "text": "Yellow", "isCorrect": true }, { "text": "Green", "isCorrect": false }, { "text": "Polka dot", "isCorrect": false }] },
+      { "text": "How many players are in a cricket team on the field?", "options": [{ "text": "11", "isCorrect": true }, { "text": "12", "isCorrect": false }, { "text": "10", "isCorrect": false }] },
+      { "text": "Which country always marches first in the Olympic opening ceremony?", "options": [{ "text": "Greece", "isCorrect": true }, { "text": "Host Country", "isCorrect": false }, { "text": "USA", "isCorrect": false }] },
+      { "text": "What is the maximum weight of a golf ball?", "options": [{ "text": "45.93 grams", "isCorrect": true }, { "text": "50 grams", "isCorrect": false }, { "text": "40 grams", "isCorrect": false }] },
+      { "text": "In baseball, how many strikes before you are 'out'?", "options": [{ "text": "3", "isCorrect": true }, { "text": "4", "isCorrect": false }, { "text": "2", "isCorrect": false }] }
+    ]
+  },
+  {
+    "title": "Trivia",
+    "questions": [
+      { "text": "Which planet is famous for its big red spot?", "options": [{ "text": "Jupiter", "isCorrect": true }, { "text": "Mars", "isCorrect": false }, { "text": "Saturn", "isCorrect": false }] },
+      { "text": "What is the capital of Sweden?", "options": [{ "text": "Stockholm", "isCorrect": true }, { "text": "Oslo", "isCorrect": false }, { "text": "Copenhagen", "isCorrect": false }] },
+      { "text": "How many teeth does an adult human typically have?", "options": [{ "text": "32", "isCorrect": true }, { "text": "30", "isCorrect": false }, { "text": "28", "isCorrect": false }] },
+      { "text": "What is the main ingredient of hummus?", "options": [{ "text": "Chickpeas", "isCorrect": true }, { "text": "Lentils", "isCorrect": false }, { "text": "Peas", "isCorrect": false }] },
+      { "text": "Which is the smallest continent?", "options": [{ "text": "Australia", "isCorrect": true }, { "text": "Europe", "isCorrect": false }, { "text": "Antarctica", "isCorrect": false }] },
+      { "text": "What is the most consumed beverage in the world after water?", "options": [{ "text": "Tea", "isCorrect": true }, { "text": "Coffee", "isCorrect": false }, { "text": "Beer", "isCorrect": false }] },
+      { "text": "Which country invented tea?", "options": [{ "text": "China", "isCorrect": true }, { "text": "India", "isCorrect": false }, { "text": "Japan", "isCorrect": false }] },
+      { "text": "What is the name of the ship in 'Jaws'?", "options": [{ "text": "Orca", "isCorrect": true }, { "text": "Beagle", "isCorrect": false }, { "text": "Pequod", "isCorrect": false }] },
+      { "text": "Which element is diamond made of?", "options": [{ "text": "Carbon", "isCorrect": true }, { "text": "Oxygen", "isCorrect": false }, { "text": "Silicon", "isCorrect": false }] },
+      { "text": "What is the primary ingredient in guacamole?", "options": [{ "text": "Avocado", "isCorrect": true }, { "text": "Tomato", "isCorrect": false }, { "text": "Onion", "isCorrect": false }] },
+      { "text": "How many days are in a leap year?", "options": [{ "text": "366", "isCorrect": true }, { "text": "365", "isCorrect": false }, { "text": "364", "isCorrect": false }] },
+      { "text": "What is the tallest animal in the world?", "options": [{ "text": "Giraffe", "isCorrect": true }, { "text": "Elephant", "isCorrect": false }, { "text": "Ostrich", "isCorrect": false }] },
+      { "text": "Which planet is known as the 'Morning Star'?", "options": [{ "text": "Venus", "isCorrect": true }, { "text": "Mars", "isCorrect": false }, { "text": "Mercury", "isCorrect": false }] },
+      { "text": "What is the chemical symbol for Silver?", "options": [{ "text": "Ag", "isCorrect": true }, { "text": "Au", "isCorrect": false }, { "text": "Si", "isCorrect": false }] },
+      { "text": "How many hearts does an octopus have?", "options": [{ "text": "3", "isCorrect": true }, { "text": "1", "isCorrect": false }, { "text": "2", "isCorrect": false }] },
+      { "text": "What is the capital of Egypt?", "options": [{ "text": "Cairo", "isCorrect": true }, { "text": "Alexandria", "isCorrect": false }, { "text": "Luxor", "isCorrect": false }] },
+      { "text": "Which is the largest internal organ in the human body?", "options": [{ "text": "Liver", "isCorrect": true }, { "text": "Heart", "isCorrect": false }, { "text": "Lung", "isCorrect": false }] },
+      { "text": "What is the capital of Russia?", "options": [{ "text": "Moscow", "isCorrect": true }, { "text": "Saint Petersburg", "isCorrect": false }, { "text": "Kazan", "isCorrect": false }] },
+      { "text": "Which year did the Titanic sink?", "options": [{ "text": "1912", "isCorrect": true }, { "text": "1911", "isCorrect": false }, { "text": "1913", "isCorrect": false }] },
+      { "text": "What is the smallest planet in our solar system?", "options": [{ "text": "Mercury", "isCorrect": true }, { "text": "Mars", "isCorrect": false }, { "text": "Venus", "isCorrect": false }] }
+    ]
   }
-
 ]

@@ -11,12 +11,12 @@ import { HistoryService } from '../../services/history/history';
   standalone: true,
   imports: [QuestionComponent, CommonModule],
   templateUrl: './quiz.html',
-  styleUrl: './quiz.css'
 })
 export class QuizComponent implements OnInit, OnDestroy {
   quiz: Quiz | null = null;
   currentQuizIndex = 0;
   answeredQuestions = new Set<number>();
+  isSubmitted = false;
 
   constructor(
     private quizService: QuizService,
@@ -78,15 +78,29 @@ addToHistory(): void {
   if (!this.quiz) return;
   const score = this.getScore();
   const maxScore = this.getMaxScore();
-  this.historyService.addHistoryEntry(this.quiz.title, score, maxScore);
+    this.historyService.add({
+      quizTitle: this.quiz.title,
+      type: 'taken',
+      score: score,
+      maxScore: maxScore
+    });
 }
 
-goToMainMenu(): void {
-  if (this.isQuizComplete()) {
-    this.addToHistory();
+  goToMainMenu(): void {
+    if (this.isSubmitted) {
+      this.addToHistory();
+    }
+    this.router.navigate(['/']);
   }
-  this.router.navigate(['/']);
-}
 
+  submitQuiz(): void {
+    if (this.answeredQuestions.size < (this.quiz?.questions.length || 0)) {
+      if (!confirm('You have not answered all questions. Submit anyway?')) {
+        return;
+      }
+    }
+    this.isSubmitted = true;
+    window.scrollTo(0, 0);
+  }
 
 }

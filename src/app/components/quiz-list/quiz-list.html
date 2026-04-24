@@ -1,7 +1,76 @@
-<h1>Available Quizzes</h1>
-<div class="quiz-grid">
-    <div *ngFor="let quiz of quizzes; let i = index" class="quiz-card">
-        <h3>{{quiz.title}}</h3>
-        <button (click)="takeQuiz(i)">Take Quiz</button>
+<!-- Category Nav Bar -->
+<div class="category-nav">
+  <a class="cat-item" [class.active]="selectedCategory === 'All'" (click)="selectCategory('All')">
+    <i class="fa fa-th-large"></i><span>All</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'Art & Lit'" (click)="selectCategory('Art & Lit')">
+    <i class="fa fa-palette"></i><span>Art & Lit</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'Entertainment'" (click)="selectCategory('Entertainment')">
+    <i class="fa fa-film"></i><span>Entertainment</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'Geography'" (click)="selectCategory('Geography')">
+    <i class="fa fa-globe-americas"></i><span>Geography</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'History'" (click)="selectCategory('History')">
+    <i class="fa fa-monument"></i><span>History</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'Languages'" (click)="selectCategory('Languages')">
+    <i class="fa fa-language"></i><span>Languages</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'Science'" (click)="selectCategory('Science')">
+    <i class="fa fa-flask"></i><span>Science</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'Sports'" (click)="selectCategory('Sports')">
+    <i class="fa fa-trophy"></i><span>Sports</span>
+  </a>
+  <a class="cat-item" [class.active]="selectedCategory === 'Trivia'" (click)="selectCategory('Trivia')">
+    <i class="fa fa-brain"></i><span>Trivia</span>
+  </a>
+</div>
+
+<div class="main-container">
+  <!-- CTA Row -->
+  <div class="cta-row">
+    <div class="cta-block">
+      <div class="cta-info">
+        <h2>Create a quiz</h2>
+        <p>Build and share your own challenges</p>
+        <a routerLink="/create-quiz" class="btn-bubble">Open Editor</a>
+      </div>
+      <div class="cta-icon" style="font-size: 5.5rem; opacity: 0.15; position: absolute; right: 20px; top: 20px;"><i class="fa fa-pencil-ruler"></i></div>
     </div>
+    
+    <div class="cta-block secondary">
+      <div class="cta-info">
+        <h2>AI Gen</h2>
+        <p>Generate questions using Magic AI</p>
+        <a routerLink="/ai-gen" class="btn-bubble">Try Magic</a>
+      </div>
+      <div class="cta-icon" style="font-size: 5.5rem; opacity: 0.15; position: absolute; right: 20px; top: 20px;"><i class="fa fa-sparkles"></i></div>
+    </div>
+  </div>
+
+  <!-- Recently Published Section -->
+  <h2 class="section-title">{{ selectedCategory === 'All' ? 'Fresh Quizzes' : selectedCategory + ' Quizzes' }}</h2>
+  
+  <div class="quiz-grid" *ngIf="filteredQuizzes.length > 0; else noQuizzes">
+    <div *ngFor="let quiz of filteredQuizzes" class="quiz-card" (click)="takeQuiz(quiz)">
+      <div class="quiz-img-wrapper">
+        <img [src]="getQuizImage(quiz.title)" [alt]="quiz.title">
+      </div>
+      <div class="quiz-content">
+        <h3>{{quiz.title}}</h3>
+        <p>{{ quiz.questions.length }} Questions • Explore now</p>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noQuizzes>
+    <div class="text-center mt-2" style="padding: 4rem;">
+      <i class="fa fa-search" style="font-size: 3rem; color: #ccc; margin-bottom: 1rem;"></i>
+      <h3>No quizzes found in this category.</h3>
+      <button class="btn-bubble mt-2" (click)="selectCategory('All')">Show All Quizzes</button>
+    </div>
+  </ng-template>
 </div>

@@ -1,14 +1,18 @@
-
 <header>
-    <div class="header-container">
-       <div class="app-name">
-        <h1>QuizApp</h1>
-        <p>Best Place to take quizzes!</p>
-       </div> 
-       <nav><ul>
-        <li><a routerLink="/">Quiz List</a></li>
-        <li><a routerLink="/create-quiz">Create Quiz</a></li>
-        <li><a routerLink="/history">History</a></li>
-       </ul></nav>
+  <div class="header-container">
+    <div class="logo">
+      BRAIN<span>.vault</span>
     </div>
+    
+    <div class="join-banner">
+      <span>Join Game? PIN:</span>
+      <input type="text" class="pin-input" placeholder="123 456">
+    </div>
+
+    <div class="header-actions">
+      <button class="btn-icon"><i class="fa fa-search"></i></button>
+      <button class="btn-icon"><i class="fa fa-bell"></i></button>
+      <div style="width: 40px; height: 40px; background: var(--bright-indigo); border-radius: 50%; border: 2px solid #000; box-shadow: 2px 2px 0 #000;"></div>
+    </div>
+  </div>
 </header>

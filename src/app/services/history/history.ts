@@ -2,10 +2,10 @@ import { Injectable } from '@angular/core';
 
 export interface QuizHistoryItem {
   id: string;
-  title: string;
+  quizTitle: string;
   type: 'taken'|'created';
   score?: number;         // optional for 'taken'
-  total?: number;         // optional for 'taken'
+  maxScore?: number;      // optional for 'taken'
   date: string;           // ISO timestamp
 }
 

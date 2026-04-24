@@ -1,6 +1,282 @@
-/* You can add global styles to this file, and also import other style files */
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
+:root {
+  --bg-lavender: #f8f7ff;
+  --dark-indigo: #1e1b4b;
+  --bright-indigo: #6366f1;
+  --soft-violet: #a78bfa;
+  --accent-purple: #8b5cf6;
+  --text-dark: #1e1b4b;
+  --border-radius: 20px;
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  background-color: var(--bg-lavender);
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+  background: white;
+  padding: 1.2rem 0;
+  border-bottom: 2px solid #eef2ff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.header-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #fbbf24; /* Golden Yellow */
+  text-shadow: 2px 2px 0px #000;
+  -webkit-text-stroke: 1.5px black;
+  letter-spacing: -1px;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.join-banner {
+  background-color: var(--soft-violet);
+  border-radius: var(--border-radius);
+  padding: 0.7rem 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: inset 0 -4px 0 rgba(0,0,0,0.1), 0 4px 10px rgba(167, 139, 250, 0.2);
+}
+
+.join-banner span {
+  font-weight: 700;
+  color: white;
+}
+
+.pin-input {
+  background: white;
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: 0.4rem 1.5rem;
+  font-weight: 700;
+  width: 160px;
+  text-align: center;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.btn-icon {
+  background: transparent;
+  border: none;
+  font-size: 1.3rem;
+  color: var(--dark-indigo);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Category Nav */
+.category-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 1.8rem 0;
+  background: white;
+  border-bottom: 1px solid #eef2ff;
+  flex-wrap: wrap;
+}
+
+.cat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  transition: var(--transition);
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.cat-item i {
+  font-size: 1.6rem;
+}
+
+.cat-item span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.cat-item:hover {
+  color: var(--bright-indigo);
+  background: #f5f3ff;
+  transform: translateY(-3px);
+}
+
+.cat-item.active {
+  color: var(--bright-indigo);
+  background: #f5f3ff;
+}
+
+/* Main Layout */
+.main-container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+/* CTA Blocks */
+.cta-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.cta-block {
+  background: var(--dark-indigo);
+  border-radius: 30px;
+  padding: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(30, 27, 75, 0.15);
+}
+
+.cta-block.secondary {
+  background: var(--accent-purple);
+}
+
+.cta-info h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.cta-info p {
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.btn-bubble {
+  background: var(--bright-indigo);
+  color: white;
+  border: 2px solid #000;
+  padding: 1rem 2.5rem;
+  border-radius: 35px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #000;
+  transition: var(--transition);
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-bubble:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 #000;
+}
+
+.btn-bubble:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+/* Quiz Card Grid */
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: var(--dark-indigo);
+}
+
+.quiz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.quiz-card {
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+  transition: var(--transition);
+  cursor: pointer;
+  border: 1px solid #f1f5f9;
+}
+
+.quiz-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(99, 102, 241, 0.1);
+}
+
+.quiz-img-wrapper {
+  height: 200px;
+  width: 100%;
+}
+
+.quiz-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quiz-content {
+  padding: 1.5rem;
+}
+
+.quiz-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+  color: var(--dark-indigo);
+}
+
+.quiz-content p {
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .cta-row { grid-template-columns: 1fr; }
+  .join-banner { display: none; }
+}
+
+@media (max-width: 600px) {
+  .category-nav { gap: 1rem; }
+  .cta-block { flex-direction: column; text-align: center; padding: 2rem; }
+  .section-title { font-size: 1.6rem; }
 }

@@ -7,7 +7,6 @@ import { Question } from '../../models/question.model';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './question.html',
-  styleUrl: './question.css',
 })
 export class QuestionComponent {
 @Input() question!: Question;

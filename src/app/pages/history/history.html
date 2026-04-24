@@ -1,17 +1,23 @@
 <div class="container">
-  <h1>Quiz History</h1>
+  <h1 class="centered-heading">Quiz History</h1>
 
   <div *ngIf="history.length > 0; else noHistory">
-    <ul>
-      <li *ngFor="let entry of history" class="history-item">
-        <p><strong>{{ entry.quizTitle }}</strong></p>
-        <p>Score: {{ entry.score }}/{{ entry.maxScore }}</p>
-        <p>Date: {{ entry.date | customDate : 'short' }}</p>
-      </li>
-    </ul>
+    <div class="quiz-grid">
+      <div *ngFor="let entry of history" class="quiz-card">
+        <h3>{{ entry.quizTitle }}</h3>
+        <p>Score: <strong>{{ entry.score }}</strong> / {{ entry.maxScore }}</p>
+        <p class="mt-2"><small>{{ entry.date | customDate : 'short' }}</small></p>
+      </div>
+    </div>
+    <div class="text-center mt-2">
+      <button class="btn btn-danger" (click)="clear()">Clear All History</button>
+    </div>
   </div>
 
   <ng-template #noHistory>
-    <p>No history available.</p>
+    <div class="text-center">
+      <p>No history available yet. Take a quiz to see your results!</p>
+      <a routerLink="/quiz-list" class="btn btn-primary mt-2">View Quizzes</a>
+    </div>
   </ng-template>
 </div>

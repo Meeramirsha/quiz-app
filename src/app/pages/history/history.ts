@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
-import { HistoryService, QuizHistoryItem } from '../../services/history.service';
+import { CommonModule } from '@angular/common';
+import { HistoryService, QuizHistoryItem } from '../../services/history/history';
+import { CustomDatePipe } from '../../pipes/custom-date/custom-date';
 
 @Component({
   selector: 'app-history',
+  standalone: true,
+  imports: [CommonModule, CustomDatePipe],
   templateUrl: './history.html',
   // adapt to your style system; use styleUrl if you use scss/css
 })

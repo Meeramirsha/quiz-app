@@ -9,7 +9,6 @@ import { Quiz } from '../../models/quiz.model';
   selector: 'app-create-quiz',
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './create-quiz.html',
-  styleUrl: './create-quiz.css',
 })
 export class CreateQuizComponent {
   quizForm: FormGroup;

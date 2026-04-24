@@ -1,33 +1,55 @@
-<h1 *ngIf="quiz; else loading">{{ quiz.title }}</h1>
+<div class="container">
+  <div *ngIf="quiz; else loading">
+    <h1 class="centered-heading">{{ quiz.title }}</h1>
 
-<div *ngIf="quiz && !isQuizComplete(); else results">
-  <div *ngFor="let question of quiz.questions; let i = index">
-    <p>Question {{ i + 1 }}/{{ quiz.questions.length }}</p>
-   <app-question
-  [question]="question"
-  (answerSelected)="handleAnswer($event, i)"
-></app-question>
+    <!-- Quiz Questions -->
+    <div *ngIf="!isSubmitted; else results">
+      <div *ngFor="let question of quiz.questions; let i = index" class="question-wrapper">
+        <div class="quiz-card mt-2">
+          <p class="text-center"><strong>Question {{ i + 1 }} / {{ quiz.questions.length }}</strong></p>
+          <app-question
+            [question]="question"
+            (answerSelected)="handleAnswer($event, i)"
+          ></app-question>
+        </div>
+      </div>
 
-
-    <hr />
+      <!-- Submit Button -->
+      <div class="text-center mt-2" style="margin-top: 4rem; padding-bottom: 5rem;">
+        <button 
+          class="btn-bubble" 
+          style="padding: 1.2rem 4rem; font-size: 1.5rem;" 
+          (click)="submitQuiz()"
+        >
+          Submit Quiz
+        </button>
+      </div>
+    </div>
   </div>
+
+  <ng-template #loading>
+    <div class="text-center">
+      <h2>Loading Quiz...</h2>
+    </div>
+  </ng-template>
+
+  <!-- Results Screen -->
+  <ng-template #results>
+    <div class="quiz-card text-center" style="border: 4px solid var(--accent-purple); padding: 4rem;">
+      <h2 style="font-size: 3rem; margin-bottom: 1rem;">Quiz Complete!</h2>
+      <div class="score-display mt-2">
+        <p style="font-size: 2rem;">Your score: <strong>{{ getScore() }}</strong> / {{ quiz?.questions?.length || 0 }}</p>
+        <p style="font-size: 1.5rem;">Percentage: <strong>{{ getScorePercentage() | number:'1.0-1' }}%</strong></p>
+      </div>
+
+      <div class="feedback mt-2" [ngSwitch]="true" style="font-size: 1.5rem; margin: 2rem 0;">
+        <div *ngSwitchCase="getScorePercentage() === 100">🌟 Excellent! Perfect score!</div>
+        <div *ngSwitchCase="getScorePercentage() >= 70">👏 Great job! You know your stuff.</div>
+        <div *ngSwitchCase="getScorePercentage() >= 40">👍 Good effort! Keep practicing.</div>
+        <div *ngSwitchDefault>📚 Keep learning and try again!</div>
+      </div>
+
+      <button class="btn-bubble" style="margin-top: 2rem;" (click)="goToMainMenu()">Back to Main Menu</button>
+    </div>
+  </ng-template>
 </div>
-
-<ng-template #loading>
-  <h2>Loading Quiz...</h2>
-</ng-template>
-
-<ng-template #results>
-  <h2>Quiz Complete!</h2>
- <p>Your score: {{ getScore() }}/{{ quiz?.questions?.length || 0 }}</p>
-
-  <p>Your score percentage: {{ getScorePercentage() }}%</p>
-
-  <div [ngSwitch]="getScorePercentage()">
-    <div *ngSwitchCase="100">Excellent! All correct answers!</div>
-    <div *ngSwitchCase="0">All wrong answers! Stop trolling!</div>
-    <div *ngSwitchDefault>Better luck next time!</div>
-  </div>
-
-  <button (click)="goToMainMenu()">Back to Main Menu</button>
-</ng-template>
