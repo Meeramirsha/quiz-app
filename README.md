@@ -1,57 +1,58 @@
-🧠 Quiz App — AngularJS
+# 🧠 BrainVault - Master Your Knowledge
 
-An interactive and dynamic Quiz Application built using AngularJS, designed to allow users to take quizzes, view their scores, and review their quiz history.
-This project demonstrates a complete single-page application (SPA) setup with routing, components, and data binding.
+BrainVault is a modern, interactive, and visually stunning Quiz Application built with **Angular**. It features a playful "bubbly" design system, a massive library of 180+ questions across 9 categories, and a cutting-edge **Magic AI Quiz Generator**.
 
-🚀 Features
+![BrainVault Banner](https://images.unsplash.com/photo-1606326666430-2c2a58d04975?auto=format&fit=crop&q=80&w=1200)
 
-📋 Create, take, and manage quizzes
+## 🚀 Key Features
 
-🧩 Multiple-choice questions with instant feedback
+- **🎯 9 Dynamic Categories**: Explore quizzes in General Knowledge, Art & Lit, Entertainment, Geography, History, Languages, Science, Sports, and Trivia.
+- **📚 Massive Question Bank**: Over 180+ handcrafted questions (20 per category) to challenge your intellect.
+- **🪄 Magic AI Generator**: Type any topic and watch as our "AI" (simulation) generates a full 20-question custom quiz just for you.
+- **🎨 Premium Bubbly UI**: A unique Indigo & Lavender theme with smooth animations, high-quality Unsplash imagery, and a responsive grid layout.
+- **📊 Result Analytics**: Detailed score breakdown with percentage and personalized performance feedback.
+- **💾 History Tracking**: Keep track of your previous quiz attempts and scores.
+- **🏗️ Quiz Creator**: Built-in editor to build and share your own custom challenges.
 
-🕒 Timer-based quiz sessions
+## 🛠️ Tech Stack
 
-📊 Result summary and history tracking
+- **Framework**: [Angular](https://angular.io/) (v17+ Standalone Components)
+- **Language**: TypeScript
+- **Styling**: Vanilla CSS3 (Custom Design System)
+- **Icons**: FontAwesome 6
+- **Fonts**: Fredoka (Google Fonts)
+- **Assets**: Dynamic Unsplash API Integration
 
-🎨 Responsive UI with AngularJS bindings
+## ⚙️ Local Development
 
-💾 Local storage integration for saving quiz data
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Meeramirsha/quiz-app.git
+   cd quiz-app-angular
+   ```
 
-🛠️ Technologies Used
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Frontend: AngularJS, HTML5, CSS3, Bootstrap
+3. **Run the development server**:
+   ```bash
+   npm start
+   ```
+   Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Backend (optional): JSON / LocalStorage
+## 🌐 Deployment
 
-Package Manager: npm
+The project is optimized for deployment on **Vercel**. 
 
-Runtime: Node.js
+- **Routing**: Includes `vercel.json` for seamless client-side routing.
+- **Build Command**: `ng build`
+- **Output Directory**: `dist/quiz-app-angular/browser`
 
-📂 Folder Structure
-Quiz-app/
-  ├── package.json
-  ├── package-lock.json
-  ├── src/                # Main application source files
-  ├── node_modules/       # Dependencies (auto-generated)
-  ├── .qodo/              # Build and workflow configs
-  ├── assets/             # Static assets (images, icons, etc.)
-  ├── components/         # AngularJS components (quiz, result, history, etc.)
-  ├── app.js              # AngularJS app configuration and routes
-  └── index.html          # Application entry point
+## 📄 License
 
-⚙️ Installation and Setup
-1️⃣ Clone the repository
-git clone https://github.com/Meeramirsha/Quiz-App-AngularJS.git
-cd Quiz-App-AngularJS
+This project is open-source and available under the [MIT License](LICENSE).
 
-2️⃣ Install dependencies
-npm install
-
-3️⃣ Run the project
-npm start
-
-
-
-
-
-
+---
+*Created with ❤️ by BrainVault Team*
