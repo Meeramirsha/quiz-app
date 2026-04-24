@@ -2,6 +2,8 @@
 
 BrainVault is a modern, interactive, and visually stunning Quiz Application built with **Angular**. It features a playful "bubbly" design system, a massive library of 180+ questions across 9 categories, and a cutting-edge **Magic AI Quiz Generator**.
 
+**🔗 [Live Demo: quiz-app-eodp.vercel.app](https://quiz-app-eodp.vercel.app/)**
+
 ![BrainVault Banner](public/images/banner.png)
 
 ## 🚀 Key Features
