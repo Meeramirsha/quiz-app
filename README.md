@@ -55,4 +55,4 @@ The project is optimized for deployment on **Vercel**.
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-*Created with ❤️ by BrainVault Team*
+*Created with ❤️ by Meera*
